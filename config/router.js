@@ -1,5 +1,4 @@
 import express from 'express'
-
 import countries from '../controllers/countries.js'
 import memories from '../controllers/memories.js'
 import trips from '../controllers/trips.js'
@@ -7,9 +6,7 @@ import auth from '../controllers/auth.js'
 import users from '../controllers/users.js'
 import { secureRoute } from '../lib/secureRoute.js'
 
-
 const router = express.Router()
-
 
 // Countries
 router.route('/countries')
